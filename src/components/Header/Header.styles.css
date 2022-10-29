@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    padding: 40px 0px;
+    font-family: 'Poppins', sans-serif;
+    position: fixed;
+    top: 0px;
+    z-index: 3000;
+}
+
+.logo-box{
+    width: 30%;
+}
+
+.logo-box h2{
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing:1.2px;
+}
+
+.nav-list{
+    width: 70%;
+}
+
+.nav-list ul{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: 2px;
+} 
+
+
+.nav-list ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    
+}
+
+
+.nav-list ul li a{
+    font-weight:400;
+    font-size: 17px;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+.nav-list ul li:hover a{
+    color: #E41D56;
+}

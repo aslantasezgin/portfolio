@@ -1,0 +1,93 @@
+.slider{
+    width: 100%;
+    height:100vh;
+    background-size: cover!important;
+    background-position: center;
+    background: url(./slider-img.jpg);
+    position: relative;
+
+}
+
+.slider::before{
+    width: 300%;
+    height: 300%;
+    position: absolute;
+    display: block;
+    content: "";
+    background: url(./slider-b.png);
+    opacity: 0.7;
+    animation-name: grained;
+    animation-iteration-count: infinite;
+    animation-duration: .5s;
+    animation-timing-function: steps(20);
+}
+
+@keyframes grained {
+    0%, 100% { transform:translate(0, 0) }
+    10% { transform:translate(-5%, -10%) }
+    20% { transform:translate(-15%, 5%) }
+    30% { transform:translate(7%, -25%) }
+    40% { transform:translate(-5%, 25%) }
+    50% { transform:translate(-15%, 10%) }
+    60% { transform:translate(15%, 0%) }
+    70% { transform:translate(0%, 15%) }
+    80% { transform:translate(3%, 35%) }
+    90% { transform:translate(-10%, 10%) }
+  }
+
+.slider-text{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: -1;
+    opacity: 1;
+}
+
+.slider-text h2{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    top: -20px;
+}
+
+.slider-text h2 span{
+    color: #E41D56;
+}
+
+.slider-bottom{
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+}
+
+.slider-mail{
+    width: 22%;
+}
+
+.slider-mail p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.slider-content{
+    width: 35%;
+    position: relative;
+    top: -9px;
+}
+
+.slider-content p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.slider-content p span{
+    font-weight: 500;
+    color: #E41D56;
+}
