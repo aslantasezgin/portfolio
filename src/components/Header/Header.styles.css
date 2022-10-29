@@ -5,6 +5,14 @@
     position: fixed;
     top: 0px;
     z-index: 3000;
+    transition: all 0.2s;
+}
+
+.is-sticky {
+    background-color: #101010;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding: 30px 0px;
+   
 }
 
 .logo-box{

@@ -1,0 +1,48 @@
+.services-bg{
+    background-color: #222;
+    height: auto;
+    padding: 25px 0px 20px 0px;
+}
+
+
+.services-title{
+    width: 100%;
+    display: block;
+    padding: 40px 0px;
+}
+
+.services-title h2{
+    color: #fff;
+    font-weight: 300;
+    font-size: 20px;
+    position: relative;
+    left: 120px;
+}
+
+.services-title h2::before{
+    width: 70px;
+    left: -90px;
+    height: 1px;
+    background-color: #E41D56;
+    position: absolute;
+    display: block;
+    content: "";
+    top:12px;
+}
+
+.services-title h3{
+    color: #fff;
+    position: relative;
+    left:30px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.services-boxes{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 14px 0px 0px 0px;
+
+}

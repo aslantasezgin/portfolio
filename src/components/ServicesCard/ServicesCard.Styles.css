@@ -1,0 +1,45 @@
+.ServiceCard{
+    width: 32%;
+    margin: 0px 4px;
+    padding-right: 20px;
+    text-align: center;
+    border-right: 1px solid #9b1c4076;
+    margin-bottom: 50px;
+    padding: 25px ;
+}
+
+.ServiceCard:hover{
+    background-color: #9B1C40;
+    transition: all 0.4s;
+}
+
+.ServiceCard:hover .service-icon i{
+    color: #fff;
+}
+
+.service-icon{
+    width: 100%;
+    display: block;
+}
+
+.service-icon i{
+    font-size: 55px;
+    color:  #9B1C40;
+}
+
+.service-text{
+    width: 100%;
+    padding: 10px 40px;
+}
+
+.service-text h2{
+    color: #fff;
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+
+.service-text p{
+    color: #fff;
+    font-size: 13px;
+}

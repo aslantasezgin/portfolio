@@ -5,6 +5,7 @@
     background-position: center;
     background: url(./slider-img.jpg);
     position: relative;
+    overflow: hidden;
 
 }
 
@@ -50,6 +51,7 @@
 .slider-text h2{
     font-size: 70px;
     color: #fff;
+    display: inline-block;
     font-weight: 500;
     position: relative;
     top: -20px;
@@ -90,4 +92,60 @@
 .slider-content p span{
     font-weight: 500;
     color: #E41D56;
+}
+
+.slider-contact{
+    width: 20%;
+    height: 90px;
+    display: flex;
+    justify-content: flex-end;
+    transform:rotate(90deg);
+    position: absolute;
+    bottom: 120px;
+    right: -55px;
+}
+
+.slider-contact h3{
+    color: #fff;
+    font-weight: 100;
+    padding-right: 10px;
+    position: relative;
+    font-size: 15px;
+
+    left: -70px;
+}
+
+.slider-contact h3::after{
+    width: 60px;
+    background-color: #fff;
+    display: block;
+    content: "";
+    position: absolute;
+    right: -60px;
+    top: 14px;
+    height: 1px;
+}
+
+.slider-contact a{
+    color: #fff;
+    padding: 0px 10px;
+    color: #fff;
+    transition: all 0.3s;
+    font-size: 15px;
+    position: relative;
+    top: 3px;
+}
+
+.slider-contact a:hover{
+    color: #E41D56;
+}
+
+.Typewriter__cursor {
+    -webkit-animation: Typewriter-cursor 1s infinite;
+    animation: Typewriter-cursor 1s infinite;
+    margin-left: 1px;
+    color: #fff;
+    font-size: 60px!important;
+    position: relative;
+    top: -20px;
 }

@@ -1,17 +1,25 @@
 import React from "react";
 import './Slider.styles.css'
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
+import TypewriterComponent from "typewriter-effect";
 
 
 const Slider = () => {
     return(
         <div className="slider" >
-        <div className="slider-text"><h2> I develop <span> frontend pages </span></h2></div>
+        <div className="slider-text">
+            <TypewriterComponent onInit={(typewriter) => {
+                typewriter.typeString("  <h2> I develop <span> frontend pages </span></h2>")
+                .pauseFor(2000)
+                .deleteAll()
+                .typeString("<h2>I made a <span>cool websites</span></h2>")
+                .pauseFor(2000)
+                .start()
+            }}/> 
+          </div>
         <div className="slider-bottom">
             <div className="container-flex">
                 <div className="slider-mail">
-                    <p>E-Mail: <span>aslantasezginn@gmail.com</span></p>
+                    <p>e-Mail: <span>aslantasezginn@gmail.com</span></p>
                     <p>Phone: <span>+90 531 564 06 32</span></p>
 
                 </div>
@@ -23,6 +31,8 @@ const Slider = () => {
                  <div className="slider-contact">
                   <h3>Follow Me</h3>
                     <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
                  </div>     
             </div>
         </div>
