@@ -18,15 +18,15 @@ const Slider = () => {
           </div>
         <div className="slider-bottom" >
             <div className="container-flex">
-                <div className="slider-mail">
-                    <p>e-Mail: <span>aslantasezginn@gmail.com</span></p>
-                    <p>Phone: <span>+90 531 564 06 32</span></p>
-
-                </div>
+               
                 <div className="slider-content">
                 <p>Hello, I’m <span>Sezgin Aslantaş</span> , UX/UI Designer and
                Front-end Developer Based in Istanbul.</p>    
                  </div>      
+
+                 <div className="slider-cv">
+                    <a href="#" data-text="DOWNLOAD CV">DOWNLOAD <span>CV</span> </a>
+                 </div>
 
                  <div className="slider-contact">
                   <h3 data-aos="fade-right" data-aos-duration="2000" >Follow Me</h3>
