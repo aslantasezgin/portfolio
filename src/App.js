@@ -6,15 +6,20 @@ import Portfolio from './components/Portfolio/Portfolio.Component';
 import Footer from './components/Footer/Footer.Component';
 import About from './components/About/About.Component';
 import AOS from 'aos';
+
 import 'aos/dist/aos.css';
 AOS.init()
 
+
+
 function App() {
+
+
+
   return (
     
     <div className="App">
       
-    
       <Header></Header>
       <Slider></Slider>
       <About></About>
