@@ -16,7 +16,7 @@ const Slider = () => {
                 .start()
             }}/> 
           </div>
-        <div className="slider-bottom">
+        <div className="slider-bottom" >
             <div className="container-flex">
                 <div className="slider-mail">
                     <p>e-Mail: <span>aslantasezginn@gmail.com</span></p>
@@ -29,10 +29,10 @@ const Slider = () => {
                  </div>      
 
                  <div className="slider-contact">
-                  <h3>Follow Me</h3>
-                    <a href="#"><i class="fa-brands fa-github"></i></a>
-                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  <h3 data-aos="fade-right" data-aos-duration="2000" >Follow Me</h3>
+                    <a data-aos="fade-right" data-aos-duration="2000"  href="#"><i class="fa-brands fa-github"></i></a>
+                    <a data-aos="fade-right" data-aos-duration="2000" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a data-aos="fade-right" data-aos-duration="2000" href="#"><i class="fa-brands fa-twitter"></i></a>
                  </div>     
             </div>
         </div>
