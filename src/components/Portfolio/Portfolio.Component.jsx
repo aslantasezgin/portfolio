@@ -7,7 +7,7 @@ const Portfolio = () => {
         <div className="portfolio">
             <div className="container-flex">
 
-            <div data-aos="fade-down" data-aos-duration="3000" className="portfolio-title">
+            <div  className="portfolio-title">
                 <h2>PORTFOLIO</h2>
             </div>
 
